@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Contact Form</title>
+  </head>
+  <body
+    class="flex justify-center items-center h-screen bg-siteBg text-otherText p-10"
+  >
+    <form action="" class="form font-karla bg-white rounded-2xl">
+      <p class="p-10 text-3xl font-bold text-title">Contact Us</p>
+      <div class="flex flex-col px-10">
+        <div class="flex flex-row justify-between gap-5 mb-5">
+          <label for="input" class="label">
+            First Name *
+            <input type="text" id="input" class="input" placeholder="" />
+          </label>
+          <label for="input" class="label">
+            Last Name *
+            <input type="text" id="input" class="input" placeholder="" />
+          </label>
+        </div>
+        <label for="" class="mb-5 label"
+          >Email Address *
+          <input type="email" name="" id="" class="input" />
+        </label>
+        <div>
+          <label for="" class="label">Query Type *</label>
+        </div>
+        <div class="flex flex-row justify-between items-center gap-5 mb-5">
+      
+          <div class="input">
+            <input type="radio" name="query" id="radio" class="" />
+            <label for="">Support Request </label>
+          </div>
+          <div class="input">
+            <input type="radio" name="query" id="radio" />
+            <label for="">General Enquiry </label>
+          </div>
+        </div>
+        <label for=""
+          >Message *
+          <input type="text" value="" class="label message" />
+        </label>
+
+        <div" class="my-6 flex items-center gap-3">
+          <input type="checkbox" name="" id="checkbox" />
+          <label for=""
+            >I consent to be contacted by the team
+          </label>
+        </div>
+        <div class="flex justify-center text-center bg-submit hover:bg-title mt-3 mb-10 mx-10 py-4 rounded-xl cursor-pointer">
+          <input type="button" value="Submit" class="submit text-white " />
+          <label for=""></label>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

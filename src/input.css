@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/karla";
+
+.form {
+  width: 48rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid hsl(169, 82%, 27%);
+  padding: 0.7rem 2.3rem;
+  border-radius: 0.5rem;
+  transition: all 0.1ms ease-in-out;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus {
+  outline: 2px solid hsl(169, 90%, 15%);
+}
